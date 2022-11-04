@@ -5,3 +5,12 @@
   padding-right: 15px;
   width: 65px;
 }
+
+.navbar-nav:first-child {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.dropdown {
+  display: none;
+}
