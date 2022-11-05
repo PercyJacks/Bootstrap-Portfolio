@@ -40,3 +40,11 @@
 .jumbotron-content {
   text-align: center;
 }
+
+.skills-cards {
+  padding: 0px 30px 30px 30px;
+}
+
+.skills-cards img {
+  width: 150px;
+}
