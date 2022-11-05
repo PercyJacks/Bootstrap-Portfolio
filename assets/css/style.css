@@ -41,6 +41,10 @@
   text-align: center;
 }
 
+#about {
+  padding-bottom: 20px;
+}
+
 .skills-cards {
   padding: 0px 30px 30px 30px;
 }
