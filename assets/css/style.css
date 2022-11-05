@@ -48,3 +48,19 @@
 .skills-cards img {
   width: 150px;
 }
+
+#work .card-img-top {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+#work .horiseon .card-img-top {
+  height: 60vh;
+  object-position: top;
+}
+
+#work .avr-display .card-img-top,
+#work .avr-pong .card-img-top {
+  object-position: bottom;
+}
