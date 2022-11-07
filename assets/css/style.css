@@ -41,7 +41,8 @@
   text-align: center;
 }
 
-#about {
+#about,
+#work {
   padding-bottom: 20px;
 }
 
@@ -67,4 +68,39 @@
 #work .avr-display .card-img-top,
 #work .avr-pong .card-img-top {
   object-position: bottom;
+}
+
+.contact-box {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  /* margin-bottom: 20px; */
+}
+
+.contact-box .media {
+  margin-bottom: 20px;
+}
+
+.contact-box .media .icon {
+  min-width: 60px;
+  height: 60px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 20px;
+  color: #0275d8;
+}
+
+.contact-box .media .icon:hover {
+  background-color: #0275d8;
+  color: white;
+}
+
+.contact-box .media h5 {
+  padding-top: 5px;
+  margin-bottom: 0px;
 }
