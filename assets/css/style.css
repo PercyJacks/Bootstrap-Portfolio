@@ -95,6 +95,14 @@
   color: #0275d8;
 }
 
+.contact-box .media .icon a {
+  color: #0275d8;
+}
+
+.contact-box .media .icon a:hover {
+  color: white;
+}
+
 .contact-box .media .icon:hover {
   background-color: #0275d8;
   color: white;
