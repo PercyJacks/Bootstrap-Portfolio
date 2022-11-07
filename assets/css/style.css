@@ -26,6 +26,11 @@
   margin-right: 0 !important;
 }
 
+.fill ul li a:hover {
+  background-color: #0275d8 !important;
+  color: var(--highlight-colour) !important;
+}
+
 .jumbotron {
   background-image: url("../images/hero.jpg");
   background-size: cover;
