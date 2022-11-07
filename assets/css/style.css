@@ -145,3 +145,7 @@ footer {
 footer .social{
   font-size: 20px;
 }
+
+.btn:hover {
+  box-shadow: 0 0 20px 10px var(--highlight-colour);
+}
